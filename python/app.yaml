@@ -1,0 +1,10 @@
+runtime: python39
+
+instance_class: B1
+
+service: python-bot
+
+manual_scaling:
+  instances: 1
+
+entrypoint: python3 main.py
